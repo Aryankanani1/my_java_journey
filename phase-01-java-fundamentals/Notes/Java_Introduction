@@ -1,0 +1,12 @@
+J.D.K
+java development kit
+1.It contains J.R.E
+Java runtime environment  -> java runtime environment allows Programs to run and it includes
+library and jvm(java virtual machine)
+Jvm execute the byte code into any operation system ,that's the main feature of the jvm , user do not need to convert
+the byte code into any specific code to run on operating system
+
+JDK = JRE + development tool
+JRE = JVM + libraries
+
+Compiler means that convert the source code into byte code
