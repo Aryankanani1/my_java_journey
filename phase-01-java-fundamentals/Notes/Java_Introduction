@@ -10,3 +10,28 @@ JDK = JRE + development tool
 JRE = JVM + libraries
 
 Compiler means that convert the source code into byte code
+
+-- variables
+2 types
+1.Primitive Type
+2.Reference Type
+
+Primitive type -> int, float,double, char, boolean (stack)
+Reference type -> String, array, object memory(stack) that points to the (heap)
+
+The Stack: Holds the variable name and the specific memory address (the "pointer").
+The Heap: Holds the actual data (the characters in the String, the elements in the Array,
+or the fields of the Object).
+
+Note - Use less 'new' keyword because it is strong contestant for the GB(garbage collector)
+
+-- arithmetic operators
+-- + , - , * , /
+-- In Java, Arithmetic operators (+, -, *, /) always have higher precedence than Assignment operators (=, +=, -=).
+
+-- increment variables
+++x (pre-increment)
+x++ (post-increment)  , same for other
+
+
+
