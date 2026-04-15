@@ -21,7 +21,7 @@ public class Arithmetic {
         x -= x + y;
         System.out.println(x);
 
- y = (x*y)/(x+y)-x;
+// y = (x*y)/(x+y)-x;
         System.out.println(y);
 
     }

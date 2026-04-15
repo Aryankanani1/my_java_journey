@@ -33,5 +33,59 @@ Note - Use less 'new' keyword because it is strong contestant for the GB(garbage
 ++x (pre-increment)
 x++ (post-increment)  , same for other
 
+how x++ works ??
+2 areas
+1.local variable array (storage lockers for the variables)
+2.oprand stack ('workspace where calculation happens')
+
+whatever the value of x will store in the local variable array then
+operand stack come and perform the operation
+then it will push the output directly to the local variable array
+but value of x will still remains the same in oprand stack.
+1.load
+2.operation
+
+how ++x works ??
+so jvm goes directly on local variable array and update the value from 5 to 6
+and then it will takes the new value and push it into oprand stack , so it means whatever next operation uses this value
+it will show new updated value
+1.operation
+2.load
+
+-- User input Scanner
+How scanner input works ?
+Scanner sc = new Scanner(System.in);
+Scanner sc is the reference
+new Scanner is the object it will help you to create the object into heap area
+
+-- (System.in)
+scanner itself nor able to read the dat which is coming from the keyboard
+so System.in will help to read the data
+(Standard input stream) represent the row byte which is coming from the keyboard
+Scanner act as filter() or wrapper() to give the direction that input stream.
+
+
+-- constants
+in java we don't have constants we use the final keyword
+that means if value fixed it can't be replace
+
+-- primitive constant: the value can't changed
+-- object constant: the reference can't be changed but the data inside object can be changed.
+
+
+-- typecasting
+-- Widening Casting (implicit)
+assign the value of one data type to another type.
+Like moving data from smaller locker to bigger locker int -> double
+
+
+-- Narrowing Casting (explicit)
+moving from bigger locker to smaller locker
+
+
+Note:  += operators there is by default implicit cast exists
+
+
+
 
 
