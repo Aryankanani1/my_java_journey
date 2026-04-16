@@ -86,6 +86,14 @@ moving from bigger locker to smaller locker
 Note:  += operators there is by default implicit cast exists
 
 
+-- if-else
+o(n)
+-- switch
+o(1)
+-- Ternary
+o(1)
 
-
-
+-- loops
+when you known the count then use for loop
+-- while loop
+when you don't know the count but know the condition then use while loop
