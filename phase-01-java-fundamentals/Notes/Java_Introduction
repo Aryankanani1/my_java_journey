@@ -97,3 +97,56 @@ o(1)
 when you known the count then use for loop
 -- while loop
 when you don't know the count but know the condition then use while loop
+
+
+
+-- strings
+1. the basic :
+in java strings are immutable, maning once a string object is created on the heap
+it can't be changed;
+Why? Security (passwords/
+
+the trap : when you do str = str + "!", you aren't changing the original string.
+you are creating a brand new string and throwing the old one in garbage collector;
+
+
+-- string constant pool (SCP)
+a special area inside the heap memory.
+Literal vs New keyword
+
+
+-- equals() vs ==
+== (Reference Comparison): Checks if two variables
+point to the exact same memory address (the same "locker").
+
+.equals()(Content Comparison): it checks actual text inside the lockers is the same.
+
+-- Complete String constant pool and Heap memory guide
+String str = "aryan";
+it will place the str into SCP(String constant pool) 1 object
+
+String str1 = new ("aryan")
+it will create 2 object one in the SCP(String constant pool)
+and 1 in the heap memory
+
+-- why we need SCP
+In a massive app, the word "ID", "Name", or "Success" might appear 50,000 times. If Java created a new object for every
+single one, your RAM would explode.
+
+
+1.memory efficiency the reuse factor
+instead of having the 10,000 different objects that all said "success", java store it once
+and give everyone a "map"like reference
+
+2.performance speed
+== vs .equals()
+== is easy to compare and take less time
+.equals() rather then comparing the each character
+
+3.Security
+he SCP only works because Strings are Immutable.
+Thread Safety:
+many parts of hte program use the same string without worry
+
+
+
