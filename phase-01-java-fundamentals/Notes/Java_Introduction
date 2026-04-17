@@ -150,3 +150,18 @@ many parts of hte program use the same string without worry
 
 
 
+-- variable scope and lifetime
+
+instance -- when the object is destroyed
+local -- when the method finished
+Block -- when the block finished
+
+-- lifetime
+--> Local variables live on the Stack. They are born when the method starts and are instantly wiped away when the method
+ends. They do not get default values; you must initialize them!
+
+--> Instance variables live on the Heap inside the object. They are born when you say new and live until the Garbage
+Collector deletes the object.
+
+
+
