@@ -1,0 +1,26 @@
+-- classes
+A class is a logical template.
+a blueprint for the code
+it doesn't exist in the memory during runtime until
+it is loaded.
+
+1.Fields (State) : what data will the object hold
+2.Methods (Behavior) : what can the object do?
+
+
+-- objects
+An object is physical entity that occupies space in
+memory. "new" keyword, telling JVM look at the class(blueprint)
+allocate enough memory for its field
+
+
+Account ac = new Account();
+
+ac is the reference it will stored in the stack
+new Account() it will stored in the heap area
+
+-- this
+-- this is a reference to the current object
+it is used to resolve ambiguity between class field and constructor parameters
+
+
