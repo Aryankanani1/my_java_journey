@@ -1,0 +1,20 @@
+-- this and super keywords
+
+this: A reference to the instance variable or current object instance
+super: A reference to the parent(base) object instance.
+
+wht it is used?
+Ambiguity: It tells JVM exactly which variable you have to access , which not
+
+Efficiency: It allows Constructor Chaining, wwe can reuse initialization logic
+instead of writing multiple times.
+
+Usage in Website/Enterprise Applications
+super: You might have a base Notification class. Whether it is an EmailNotification or a PushNotification,
+both need to call super() to set the timeStamp and UserId defined in the parent
+
+this: In a ProfileUpdate form, you use this.name = name to make sure name entering
+in the web form is saved to the specific user's record in the database.
+
+if parent has no-argument constructor, super() is used by default.
+if the parent only has constructors with parameters, you must call it manually.

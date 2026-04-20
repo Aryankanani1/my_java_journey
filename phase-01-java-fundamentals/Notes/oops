@@ -23,4 +23,8 @@ new Account() it will stored in the heap area
 -- this is a reference to the current object
 it is used to resolve ambiguity between class field and constructor parameters
 
+-- use of classes and object
+-- Distributed Systems
+-- singleton Pattern
+-- Memory Management
 

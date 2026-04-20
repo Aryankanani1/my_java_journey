@@ -1,0 +1,30 @@
+-- Access Modifiers
+in java it is called encapsulation layers
+
+1.private
+2.protected
+3.default
+4.public
+
+why is t used?
+security and integrity?
+It prevents "external" code from corrupting the internal state of your object
+
+API stability: If you make everything public, developer never will use this code
+because there are more chances that other developer will use this code or might be using it.
+By making things private developer can change internal logic without breaking anyone else's code.
+
+Cleanliness: It hides complexity. A user of your class only sees the
+"buttons" and allowed to press.
+
+
+-- Access modifiers strictly audited
+-- private by default: Senior developer follows a rule: start with everything
+private then only make it protected or public if needed if there is a specific, documented reason
+
+public vs protected
+public - can seen by everyone
+protected  - can seen by everyone within package or different package
+default - only seen within class and package not subclass
+private - only seen by within class
+
