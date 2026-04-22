@@ -4,7 +4,11 @@ a blueprint for the code
 it doesn't exist in the memory during runtime until
 it is loaded.
 
-1.Fields (State) : what data will the object hold
+In professional software, you cannot hardcode data for every user. You need a standardized structure (Class) that
+can be reused millions of times. It allows for Modularization—instead of one giant file of code, you break the system
+into small, manageable pieces (Objects) that talk to each other.
+
+1.Fields (State) : what data will object hold
 2.Methods (Behavior) : what can the object do?
 
 
@@ -21,7 +25,7 @@ new Account() it will stored in the heap area
 
 -- this
 -- this is a reference to the current object
-it is used to resolve ambiguity between class field and constructor parameters
+it is used to resolve ambiguity between class's field and constructor parameters
 
 -- use of classes and object
 -- Distributed Systems

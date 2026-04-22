@@ -1,0 +1,16 @@
+-- Encapsulation
+-- Encapsulation is the practice of hiding the
+data of an object and if user wants to access the data (CREATE,UPDATE,READ,DELETE)
+they have to used the public methods Which Getters and Setters
+
+
+-- why it is used?
+-- validation : You can prevent "grabage" data from entering your object
+
+-- Prevent access and manage access
+read-only Access: you can provide a getter but not setter,
+making a field "read-only".
+
+Data masking: you can change how data is stored internally without
+changing how the user see it.
+

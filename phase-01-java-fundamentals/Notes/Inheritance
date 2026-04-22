@@ -1,0 +1,15 @@
+-- Inheritance: A mechanism where one class acquires the properties
+and behaviours of another class.
+
+-- Method overriding: When a Child class provides a specific implementation for a
+method that is already defined in its Parent class.
+
+
+-- why it is used
+-- code usability: you write common logic once in the Parent and all children get it for free.
+
+-- Specialization: create generate category in parent
+ and then make or customized it specially in the child class.
+
+
+
