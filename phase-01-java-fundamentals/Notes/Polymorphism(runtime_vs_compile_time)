@@ -1,0 +1,27 @@
+-- third pillar of oops
+
+-- Ploymorphism comes from Greeks: Poly(many) and Morph(forms).
+that means one things can take many form
+
+The complier's Worlds(Before the apps runs)
+AND
+The runtime Worlds(while the app is running)
+
+1. Topic: Compile-Time vs. Runtime Polymorphism
+Compile-time: the computer decides which method to call until the reading the code.
+
+Runtime: the compute doesn't known which method to call until the program is running and
+see the object in the memory.
+
+best example sendnotification():
+--> at complie time system known that we have to send the notification
+
+--> at runtime user will known which type of notification system wants to send.
+like push notification, email, SMS etc.
+
+2. Why is it used?
+Flexibility: it allows you to write one piece of code that allows you to handle many
+different types of objects.
+
+cleanliness: user don't have to compare 50 if/else condition weather this is savings
+accounts or checking accounts.

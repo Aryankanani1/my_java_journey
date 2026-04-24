@@ -3,9 +3,10 @@
 data of an object and if user wants to access the data (CREATE,UPDATE,READ,DELETE)
 they have to used the public methods Which Getters and Setters
 
-
 -- why it is used?
+
 -- validation : You can prevent "grabage" data from entering your object
+which will reduce the data redundancy.
 
 -- Prevent access and manage access
 read-only Access: you can provide a getter but not setter,
