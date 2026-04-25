@@ -1,0 +1,14 @@
+Abstraction
+-- Hiding the unnecessary information from the user
+
+
+-- Security
+-- Standardization
+
+
+-- why we use interface?
+-- Reason A: Java doesn't allow a multiple inheritance but
+user can implement the 1 or more interface
+
+-- Security and Standardization: It forces every class to use
+exact same methods so rest of the system can follow

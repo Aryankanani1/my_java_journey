@@ -25,6 +25,6 @@ private then only make it protected or public if needed if there is a specific, 
 public vs protected
 public - can seen by everyone
 protected  - can seen by everyone within package or different package
-default - only seen within class and package not subclass
+default - only seen within class and package
 private - only seen by within class
 

@@ -1,0 +1,39 @@
+-- static
+-- Static variables: Shared by all object of the class.
+-- Static Methods: Can be called without creating an object.
+
+-- Static Blocks: Used to initialized static variables when the class is first loaded.
+
+
+
+
+
+
+-- Default Methods
+-- Methods with a body that use the default keyword. that will implement by the
+interface.
+-- static methods: methods with a body the belongs to the interface name itself not
+object
+
+-- why it is used?(default)
+-- backward compatibility:
+if you have interface tht use by the 1,000 class and you need to add new feature,
+making it default prevents all 1,000 class from crashing.
+
+
+
+-- why it is used?(static)
+-- Memory Efficiency: Instead of giving every object its own copy, you store it
+once.
+
+-- Utility: It allows you to create 'Helper' functions that don't need object data
+
+
+-- Static Variable: universityName = "Florida Atlantic University"
+Every student object shares this. If the university
+changed its name, you’d only change it in one place.
+
+
+-- instance variables: a blank space for in the form where user writes their name
+-- static variables: the logo and university name.
+
