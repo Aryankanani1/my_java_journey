@@ -1,0 +1,23 @@
+-- In java every single class you write automatically inherits
+from a "Grandparent" class called Object.
+
+that means if class is empty, it already has several methods 'built-in'.
+
+-- toString(), equals(),hashcode().
+
+1. toString(): The "Description" Method
+-- so if you print an object java prints the class name + Memory Address
+We override this to human-readable summary.
+
+-- Default: ClassName@HexAddress
+-- Overridden: "Student[Name=Aryan, ID=101]"
+
+2. equals(Object obj): The "Logic" Check
+-- == checks that if two variables have exact same spot in memory or not.
+-- .equals() is designed to checks if two difference objects contains the same
+data or not.(logic: It compares Content, not Container.)
+
+3. hashcode(): The "ID Number"
+-- it return the integer acts as a "digital fingerprint" for the object.
+It is used by collections like HashMap() or HashSet() to find objects quickly.
+

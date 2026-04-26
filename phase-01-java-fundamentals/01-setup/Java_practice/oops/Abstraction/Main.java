@@ -13,9 +13,8 @@ interface BankTask {
 
     // static method (can't be overridden)
     static void printBankClosingtime(){
-        System.out.println("All branches close at 5:00 pm. ");
+        System.out.println("All branches close at 5:00 pm.");
     }
-
 }
 
 class Withdrawal implements BankTask{
@@ -34,3 +33,5 @@ w.executeTransaction();
 BankTask.printBankClosingtime();
     }
 }
+
+

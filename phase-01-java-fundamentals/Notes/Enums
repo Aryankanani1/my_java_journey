@@ -1,0 +1,18 @@
+-- Enums are special data types in java used to define
+a collection of constants.
+
+-- we can create our own mini-datatype
+can hold the specific, pre-defined values.
+
+
+-- Java Enums a special kind of class,
+
+when it is used ?
+-- when developer know the values at the compile time,
+like Days of week, transactions status, account_types
+
+Why it is used
+Type Safety
+readability:
+Switch Statements: perfectly works with switch cases.
+
