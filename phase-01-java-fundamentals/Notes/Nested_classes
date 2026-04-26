@@ -1,0 +1,22 @@
+-- nested class
+-- putting the speciality tool inside the toolbox.
+
+3 types of nested class
+-- Inner Class,
+-- Static Nested Class
+-- Anonymous Class
+
+
+1.inner class
+-- it can belongs to instance of outer class,
+-- it can access the methods and variables of the outer class
+
+2.static nested class
+-- A static nested class is associated with the Outer Class itself
+-- it can't access the non static variables of the outer class
+because it doesn't have a this keyword to reference to an object
+
+3.Anonymous Class
+this is a class with no name.
+-- it is for the one-time use
+you declare and instantiate it at the same time.
