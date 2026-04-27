@@ -1,0 +1,26 @@
+Iterable is the main class -> Collections(interface) -> List, Set, Queue
+
+Collection is the root interface
+that implements the other collections interface like List, Set, Queue
+
+
+When to Use?
+List: When we need order element and duplicate as well then we need List
+-- order preservation
+-- index based access
+-- duplicate allows
+
+-- it is self growing collections so user or developer do have to worry about the size,
+-- initial size of the array is 10
+
+after fulling the arraylist it will increased the size by 1.5 times
+
+-- time complexity
+-- for the access by index is 1,
+-- to adding the element is O(n)
+-- to remove te element is O(n)
+-- to iterate the element is O(n)
+
+
+// Comparator
+what is Comparator?
