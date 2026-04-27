@@ -1,0 +1,21 @@
+-- Exception
+-- unexpected line of code which disturb the flow of the program that is called Exception
+
+ two type of exception
+
+1. checked exception
+2. unchecked exception
+
+
+// try
+put the code that might be failed
+// catch
+if code failed this is the first responder
+// finally
+inside this every single line will be run no matter if there is any error or not
+
+checked exception
+// this exception occur at the compile time
+
+unchecked exception
+// this exception occur at the run time
