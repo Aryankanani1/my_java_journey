@@ -1,0 +1,66 @@
+what is map?
+in java Map is dictionary that holds the key-> value pair
+
+- every value has a key
+and it can't contains the duplicate.
+
+-- one value per key
+-- it maintain the order:
+
+
+there will be only 1 null value
+// null value is going to replace the other null value
+
+//not thread safe
+
+constance time performance O(1)
+
+// internal structure of hashmap
+4 component
+1.key
+2.value
+3.bucket -> internal array
+4.hash function -> it takes an input as a key and generate the hase code (numerical values)
+
+
+// characteristic
+-> Deterministic : The same input will always produce the same output
+-> Fix output sized: input sized could be different but hasCode will be different sized(32 bit, 64 bit)
+
+
+// how data store in the hash
+step 1: hashing the key
+-> pass the key from the hashFunction and it will generate the hash code
+and this hash code determined where the key value paired will be stored
+
+//step 2 : calculate the index
+int index =  hashcode % arraySized
+
+// step 3 : storing the data at calculated index
+
+
+
+// catch
+hash code have finite number of output,
+if it get same index for the many keys , then it will create the linkedList on that particular index
+and store all key->value
+
+now in the morden hashmap
+if linkedList extend the certain threshold then it will convert the particular linkedList into Red-Black Tree
+
+
+
+// hashmap resizing
+the default size of the array is 16, if more than 10 elements are inserted if will resized
+called rehashing (16 * 0.75)
+
+simple meaning
+if array sized will increased from 12 then hash will perform rehashing.(16 * 0.75)
+
+// time complexity
+-- O(1) is the time complexity
+(assuming no collision)
+
+
+// only the containsValue() function have same timeComplexity O(n) and O(n)
+because we have to search every value from here.

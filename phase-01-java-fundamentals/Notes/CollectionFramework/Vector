@@ -1,0 +1,10 @@
+// what is vector?
+vector is dynamic array.
+whenever array get full with element then the it will grows automatically.
+
+all the method in the vector are synchronized
+so user can interact with the vector without worry about the corrupting the data.
+
+it is a legacy class that implements the list interface
+and it is synchronized so it can be performance overhead.
+

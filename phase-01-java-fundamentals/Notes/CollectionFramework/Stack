@@ -1,0 +1,7 @@
+stack
+stack followed the LIFO structure
+Last in first out
+
+Lifo is thread safe but it will provide the performance overdue.
+stack is subclass of vector
+
