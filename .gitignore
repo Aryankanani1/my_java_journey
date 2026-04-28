@@ -73,3 +73,6 @@ application-local.yml
 *.db
 *.sqlite
 PROJECT_SUMMARY.md
+
+# Graphify knowledge graph output (local only, do not push)
+graphify-out/

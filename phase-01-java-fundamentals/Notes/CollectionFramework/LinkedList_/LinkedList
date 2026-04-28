@@ -1,0 +1,20 @@
+//linkedlist
+in the linkedlist there is 2 things 1.node 2.pointer
+
+1.single linkedlist
+node|pointer -> node|pointer -> node|pointer -> null
+
+2.doublelinkedlist
+null <- node|pointer -> <- node|pointer -> <- node|pointer -> null
+
+3 and 4 circular linked list and circular double linked list.
+
+
+// in Collections
+Java is implementing the doubly linked list.
+
+// linked list has better performance characteristics for the insertion and deletion
+
+//random access is quite slower because it relies on the previous node
+
+// acquired more memory in storage
