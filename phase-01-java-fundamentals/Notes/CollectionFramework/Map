@@ -1,5 +1,5 @@
 what is map?
-in java Map is dictionary that holds the key-> value pair
+in java Map is dictionary that holds the key -> value pair
 
 - every value has a key
 and it can't contains the duplicate.
@@ -25,7 +25,7 @@ constance time performance O(1)
 
 // characteristic
 -> Deterministic : The same input will always produce the same output
--> Fix output sized: input sized could be different but hasCode will be different sized(32 bit, 64 bit)
+-> Fix output sized: input sized could be different but hasCode will be same sized(32 bit, 64 bit)
 
 
 // how data store in the hash
@@ -39,7 +39,6 @@ int index =  hashcode % arraySized
 // step 3 : storing the data at calculated index
 
 
-
 // catch
 hash code have finite number of output,
 if it get same index for the many keys , then it will create the linkedList on that particular index
@@ -47,7 +46,6 @@ and store all key->value
 
 now in the morden hashmap
 if linkedList extend the certain threshold then it will convert the particular linkedList into Red-Black Tree
-
 
 
 // hashmap resizing
@@ -64,3 +62,31 @@ if array sized will increased from 12 then hash will perform rehashing.(16 * 0.7
 
 // only the containsValue() function have same timeComplexity O(n) and O(n)
 because we have to search every value from here.
+
+
+// Linked hasmap
+linked hashmap has a doubly linkedList
+and also the linkedhasmap preserved the order
+
+// what is the use of LinkedHashMap
+it will used to remove the least recent used items , the items which is used less time compare to other that item
+will be removed from the list
+
+
+
+
+/ identity hashmap
+in the identity hashmap hashcode is created with the object of class not the help of class
+if there is two object but the same name , it will create the different hashcode with the help of memory reference ==
+where as in class level hashcode used the .equals method where it compare the value if value is equals then it will
+create the same hashcode and replace the old value which is already placed on the index.
+
+
+// what is navigable map?
+navigable extend the sorted map
+and tree map implement the navigable map
+
+
+sorted map and navigable map are both interfaces
+
+navigable map provides the navigation options like retrieving the map in reversed order

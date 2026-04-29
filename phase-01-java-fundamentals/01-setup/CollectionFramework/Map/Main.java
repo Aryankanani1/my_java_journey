@@ -70,7 +70,6 @@ class Student{
 public class Main {
     public static void main(String[] args) {
 
-
         HashMap<Student, String> roles = new HashMap<>();
         Student st1 = new Student("Aryan",1);
         Student st2 = new Student("Robert",2);
@@ -91,6 +90,10 @@ public class Main {
         register.put(1, "Aryan");
         register.put(2, "Robert");
         register.put(3, "Mahesh");
+        //get or default value
+        String name = register.getOrDefault(4,"Null");
+        System.out.println("------------");
+        System.out.println(name);
         System.out.println(register);
 
         System.out.println(register.containsKey(1));
@@ -123,6 +126,9 @@ public class Main {
 
         Hash h = new Hash();
         System.out.println(h.SimpleHashFunction("aarn"));
+
+
+
 
     }
 }
