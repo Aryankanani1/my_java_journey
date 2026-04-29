@@ -11,24 +11,19 @@ class MyComparator implements Comparator<Integer>{
         return t1 - integer;
     }
 
-
     // in comparator
     // 1. = 1 default sorting order
     // 2. = 0 return the list as it is
     // 3. = -1 return the list descending order
-
 }
-
 class MyStringComparator implements Comparator<String>{
     @Override
     public int compare(String string, String t1) {
         return string.length() - t1.length();
     }
-
 }
 
 class Student{
-
     String name;
     double GPA;
 
@@ -68,9 +63,7 @@ public class Main {
         list.sort((a,b) -> b - a);
         System.out.println(list);
 
-
-
-        List<String> groceries = Arrays.asList("banana","milk","choco","waterMelonss");
+        List<String> groceries = Arrays.asList("banana","milk","choco","waterMelons");
         //traditional method
         groceries.sort(new MyStringComparator());
 
