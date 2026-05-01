@@ -18,7 +18,7 @@ after fulling the arraylist it will increased the size by 1.5 times
 -- time complexity
 -- for the access by index is 1,
 -- to adding the element is O(n)
--- to remove te element is O(n)
+-- to remove the element is O(n)
 -- to iterate the element is O(n)
 
 

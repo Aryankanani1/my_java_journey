@@ -1,0 +1,8 @@
+// what is steams
+streams is a function to help to iterate the collections for efficient way possibel,
+
+advantages of streams
+readability,
+flexibility,
+parallelism, (it can access the collection more parallel where as for loop user have to write it's own code)
+Encapsulation
