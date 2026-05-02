@@ -1,8 +1,43 @@
 // what is steams
-streams is a function to help to iterate the collections for efficient way possibel,
+streams is a function to help to iterate the collections for efficient way possible,
 
 advantages of streams
 readability,
 flexibility,
 parallelism, (it can access the collection more parallel where as for loop user have to write it's own code)
 Encapsulation
+
+//filter()
+1. The filter Method (The "Sieve")
+filter is used to select specific elements based on a condition (Predicate).
+
+Goal: To reduce the number of elements in the stream.
+
+Input: A function that returns true or false.
+
+Result: A stream containing only the items that returned true.
+
+Data Type: The type of the objects remains the same (e.g., a Stream of Student stays a Stream of Student).
+//map()
+it will not reduce the number , it is helping to transform the map
+
+//distinct
+give unique value
+if user wants to avoid the the repeatable
+
+//limit
+limit is used when you want to put the limit on the
+//stream
+it will skip first element and gives output.
+
+// peek method
+peek method is use to print the output
+if use wants to see the result before printing then we can use the peek method.
+
+//max()
+//min()
+//count()
+
+// parallel stream
+divide the collections into smaller chunks to iterate fast
+note: if we have bigger collections then we can use the list.
