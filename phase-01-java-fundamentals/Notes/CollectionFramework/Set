@@ -1,0 +1,3 @@
+Set
+  // set is nothing but the internal implementation of map's key
+        //where in the map we won't accept the duplicate key in the set we also don't update the duplicate key
