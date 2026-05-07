@@ -1,0 +1,31 @@
+//why JAVA8 introduce
+-- for parallel programming
+-- to utilized the functional programming
+
+// feature of java8
+//lambda expression
+//stream API
+//Date and time expression
+//Base64 Encode and Decode
+//method reference an constructor reference
+//Default method in interface
+//Improvement around the IO operation and collections API improvement
+
+
+1. lambda expression
+//how to make it?
+//remove modifier
+//remove return name
+//remove method name
+//place row
+
+//advantages of lambda expression
+--> reduction of JAR file
+--> enable parallel processing
+--> enable functional programing
+--> elimination of shadow programming
+
+
+2. functional interface
+// any interface having exactly single abstract method
+--> we can  invoke the lambda expression using functional interface
