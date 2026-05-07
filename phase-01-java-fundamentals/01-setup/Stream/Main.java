@@ -38,7 +38,7 @@ public class Main {
         List<Integer> combined_list = numbers.stream().filter(x -> x%2 == 0)
                         .map(x->x/2).sorted((x,y)-> y-x)
                 .skip(1)
-        .peek(x -> System.out.println(x))
+                .peek(x -> System.out.println(x))
                 .collect(Collectors.toList());
         System.out.println(combined_list);
 

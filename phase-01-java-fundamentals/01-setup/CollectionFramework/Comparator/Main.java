@@ -94,7 +94,7 @@ public class Main {
 
         //with help of java 8
         Comparator <Student> comparator = Comparator.comparing(Student::getGPA).reversed().thenComparing(Student::getName);
-students.sort(comparator);
+        students.sort(comparator);
         for(Student s : students){
             System.out.println("name:" +s.getName() + "," +s.getGPA());
         }
