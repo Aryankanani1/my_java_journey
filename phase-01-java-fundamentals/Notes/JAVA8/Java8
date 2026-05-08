@@ -29,3 +29,9 @@
 2. functional interface
 // any interface having exactly single abstract method
 --> we can  invoke the lambda expression using functional interface
+
+
+3.Predicate
+//predicate is a functional interface
+and represent the boolean value
+
