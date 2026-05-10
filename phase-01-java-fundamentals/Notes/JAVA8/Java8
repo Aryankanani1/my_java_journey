@@ -34,4 +34,18 @@
 3.Predicate
 //predicate is a functional interface
 and represent the boolean value
+// Predicate used to check the condition
+
+4.Function
+// Function is used to perform the operation on the list , array any input argument
+
+
+//Predicate
+//Function
+//Supplier
+//Consumer
+
+
+//Bi predicate
+--> take 2 values
 
