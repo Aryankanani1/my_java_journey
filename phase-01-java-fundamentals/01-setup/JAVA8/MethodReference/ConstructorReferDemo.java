@@ -29,7 +29,10 @@ public class ConstructorReferDemo {
     public static void main(String[] args) {
 
          List<String> list = (Arrays.asList("Aryan","kanani","robert"));
-         List<Student> students =  list.stream().map(x -> new Student(x)).collect(Collectors.toList());
+            //construction reference
+         List<Student> students = list.stream().map(Student::new).collect(Collectors.toList());
+      //list.stream().map(x -> new Student(x)).collect(Collectors.toList());
+
         System.out.println(students);
 //        for(Student  s: students){
 //            System.out.println(s);
