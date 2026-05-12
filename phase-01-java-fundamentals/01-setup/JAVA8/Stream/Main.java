@@ -1,4 +1,4 @@
-package Stream;
+package JAVA8.Stream;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,7 +11,7 @@ public class Main {
         // imparative approach
         int array [] = {1,2,3,4,5,6};
         int sum = 0;
-        for(int i = 0;i< array.length;i++){
+        for(int i = 0; i < array.length;i++){
            if(array[i] % 2 == 0){
                sum+=array[i];
            }
@@ -26,8 +26,7 @@ public class Main {
         Stream<Integer> stream = Stream.iterate(0,n->n+1).limit(100);
         System.out.println(stream);
 
-//        methods
-
+       //methods
        List <Integer> numbers = Arrays.asList(1,2,3,4,5,6,7,8,9);
         List<Integer> filteredNumber = numbers.stream().filter(x->x%2==0).collect(Collectors.toList());
         System.out.println(filteredNumber);
