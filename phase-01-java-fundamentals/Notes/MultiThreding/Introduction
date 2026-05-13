@@ -1,0 +1,48 @@
+// CPU
+brain of computer
+// in CPU there are many parts called CORES
+// CORES : it helps the computer to perform multiple task (Program)
+// Program: Program is a set of instruction tht tell computer to perform task.
+// each task called Process
+In the process there are much smaller parts called 'Thread'.
+
+
+// Multitasking
+so the single CORES cpu run the two processes by time sharing function,
+switching between task,
+but where two CORES run the task parallel , without switching between processes,
+
+so the multitasking allows operating system to run the processes simultaneously.
+
+
+// multithreading
+we know the process , inside the process that is called thread :
+ now handling the thread and assigning the different task to any processor called multithreading
+
+now what is time slicing
+so the time slicing is nothing but the dividing the CPU time that divide CPU time is called
+'QUANTA'
+now the OS scheduler take this quanta and assign to the particular thread and process
+and make sure that each thread gets the same time and preventing the particular thread or process to monopolizing the
+time.
+
+
+Context Switching
+// context switching is nothing when a time slice is about to end os scheduler assign the new time slice to the next
+waiting thread or process and then come back and resume the operation with previously held thread it is called context
+switching.
+
+// how JVM handle the multithreading
+so in single cores environments java's multithreading is managed by the JVM and the OS,
+by the help of time slicing, which switching between thread to give an illusion.
+
+and thread shared the single cors and time slicing is used to managed the thread execution.
+
+// thread
+-- thread is a light weight process, the smallest unit of processing,
+in JAVA we use Thread class and Runnable interface.
+
+
+--> how it works in java?
+so when the java program start, one thread runs immediately which is called "Main thread"
+that thread is responsible to run the main method in java.

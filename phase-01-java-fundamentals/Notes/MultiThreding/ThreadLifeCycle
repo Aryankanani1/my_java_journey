@@ -1,0 +1,8 @@
+// for the thread lifecycle
+there are 5 state.
+
+1.new
+2.runnable
+3.running
+4.Blocked/waiting
+5.Terminated
