@@ -6,3 +6,16 @@ there are 5 state.
 3.running
 4.Blocked/waiting
 5.Terminated
+
+//Daemon threads
+-- Daemon thread means : a thread which is running in background, Daemon thread will ignored by the JVM
+JVM didn't care about the daemon thread
+
+
+
+-- synchronization
+-- when multiple thread try to access same resources any generate the inconsistent output
+which is called race condition and synchronized keyword prevent this race condition.
+
+--mutual exclusion
+means that multiple thread can't able access the critical resources at one time.

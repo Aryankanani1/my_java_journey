@@ -1,0 +1,35 @@
+// Locks
+1. Intrinsic
+2. Explicit
+
+1. Intrinsic: this are in-built locks every objet hae this locks
+when we are used the synchronized keyword we are using this automatic locks.
+
+2. Explicit: this are the manual locks
+giving more control over the locks and how each thread can access the resources.
+
+
+Lock is an interface in java
+methods in Locks like,
+
+lock.unclock();
+lock.trylock();
+lock.lock();
+
+
+disadvantages of locking;
+
+1. Fairness
+2. Blocking
+3. Interruptibility
+4. Read/Write blocking
+
+
+-- thread communication
+in the multithreaded environment thread often communicate with each other to complete the task.
+without proper communication thread will go in busy waiting states , which will consume the CPU resources and end up
+with the dead lock situation.
+
+wait(),
+notify(),
+notifyAll()..

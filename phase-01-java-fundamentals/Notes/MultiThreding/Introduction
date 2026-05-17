@@ -2,7 +2,7 @@
 brain of computer
 // in CPU there are many parts called CORES
 // CORES : it helps the computer to perform multiple task (Program)
-// Program: Program is a set of instruction tht tell computer to perform task.
+// Program: Program is a set of instruction the tell computer to perform task.
 // each task called Process
 In the process there are much smaller parts called 'Thread'.
 
@@ -46,3 +46,23 @@ in JAVA we use Thread class and Runnable interface.
 --> how it works in java?
 so when the java program start, one thread runs immediately which is called "Main thread"
 that thread is responsible to run the main method in java.
+
+
+// Multithreading Advantages
+// Better utilization of CPU
+// Better utilization of I/O operation
+// Better user responsiveness
+
+
+// issue with multithreading
+
+shared mutable state issue
+// race condition
+// starvation
+// deadlock
+
+not shared mutable state issue
+separate state concurrency
+parallel pipeline
+
+
