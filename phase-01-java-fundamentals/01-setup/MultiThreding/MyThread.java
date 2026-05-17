@@ -24,6 +24,5 @@ public class MyThread extends Thread {
         System.out.println(m1.getState());
         m1.join();
         System.out.println(m1.getState());
-
     }
 }

@@ -15,5 +15,6 @@ public class Main {
         for (;;){
             System.out.println(Thread.currentThread().getName());
         }
+
     }
 }
