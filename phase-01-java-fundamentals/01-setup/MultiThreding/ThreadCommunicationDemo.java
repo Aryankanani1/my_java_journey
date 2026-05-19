@@ -14,7 +14,7 @@ class ShreadResources{
                 Thread.currentThread().interrupt();
             }
         }
-       this.data = data;
+        this.data = data;
         hashData = true;
         System.out.println("Produced: "+ data);
         notify();
