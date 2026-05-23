@@ -41,7 +41,7 @@ public class Main {
                 }
             }
         });
-        Thread thread2 = new Thread(new Runnable() {
+        Thread thread2 = new Thread(new Runnable()  {
             @Override
             public void run() {
                 for(int i =0 ;i<100;i++){
