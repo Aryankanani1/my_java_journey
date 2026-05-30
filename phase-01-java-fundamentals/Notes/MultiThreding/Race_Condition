@@ -1,0 +1,10 @@
+// race condition is mean that
+
+two or more thread access the same variables in way that the final result will store in variable
+depends on how thread is schedule.
+
+-> reason for the race condition:
+1. two or more variables read and writes the variable at the same time.
+2. the thread access the data the not atomic (it means that any thread can access the data)
+ -- read modified writes
+    -- where modified value depends on the previous read value.
