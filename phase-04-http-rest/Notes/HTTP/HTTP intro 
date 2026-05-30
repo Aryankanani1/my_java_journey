@@ -1,0 +1,132 @@
+HTTP :
+
+HEADERS
+
+1. Request Headers
+
+-> user agents
+
+-> Authorization
+
+->Cookie
+
+->Accept
+
+2. General Headers
+
+-> Date
+
+-> cache-control
+
+-> connection
+
+3. Representation Headers
+
+-> Content-type
+
+-> Content-Length
+
+-> Content-Encoding
+
+-> ETag
+
+4. Security Headers
+
+-> Strict-Transport-Security
+
+-> Content-Security-Policy
+
+-> X-Frame-Option
+
+-> X-Content-Type-Option
+
+-> Set-Cookie
+
+HTTP method:
+1. GET
+2.POST
+3.PUT
+4.DELETE
+5.PATCH
+
+
+Idempotent
+1. In the idempotent we can send the http request many times ans aspect the result same kind of
+1.GET
+2.PUT
+3.DELETE
+
+Non idempotent method
+1.POST
+
+
+CORS
+OPTION method
+
+In this CORS there are two types of request flow
+1. Simple Request
+2. Prefilght Request
+
+If client send the request to the server and server responded without CORS domain name or we can say corsponding domain name the browser will block the request and tell CORS error.
+
+2. Preflight request
+-> when does this request qualify?
+
+-> IF(
+
+the request must be the CORS origin (that means the client and server domain must be the different or we can say the origin must be a different)
+AND
+(1.it either be a PUT or DELETE  OR 2.it is going to non simple header (Authorization) 3.content must be the JSON type)
+)
+
+
+Preflight Request method made with the options method
+After options methods header verify it is okay to process GET,PUT,POST,DELETE
+
+
+
+
+HTTP Response Code:
+
+REQUEST RESPONSE :
+
+1.  1XX  (Information) ->  Server Indicate that it received the headers now client can processed the request (body) it is used for the large uploads
+2.  2XX   (Success)      ->  Connection is successful and server is returning the requests resource.
+2.1 201                                 ->   new Resources has been created
+2.2 204                                 ->  (part of the preflight request) there is no content
+3.  3XX (Redirection)
+3.1 301                                 ->  move to resource from one place to another place from /user to /person it will move permanently
+3.2 302                                 ->  currently I am making redirect but you should use original resource
+3.3 304                                 ->  the requested resources has not been modified
+4.  4XX  (Client Error)
+4.1 400                                  -> invalid data
+4.2 401                                  -> request fails due to authentication barrier
+4.3 403                                  -> forbidden, request is good but you are not allowed to access
+4.4 404                                  -> resources is unavailable
+4.5 405                                   -> invalid request
+4.6 409                                   -> to showcase conflict
+4.7 429                                   -> rate limit, limiting the request at client side
+5.  5XX  (Server Error)
+5.1 500                                   -> Internal Server Error
+5.2 501                                   -> not implement yet
+5.3 502                                   -> Bad Gteway
+5.4 503                                   -> Service is unavailable
+5.5 504.                                  -> fails to response
+
+
+
+HTTP CACHING
+
+1.Reusing the old data if the old is not changed
+1.1 cache control
+1.2 Etag (kind of hash tag)
+1.3 last-modified
+
+
+Now for any request
+It will check two parameters in headers
+
+If-Noun-match:
+If-Modified-since:
+
+
