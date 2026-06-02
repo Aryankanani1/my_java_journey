@@ -1,0 +1,20 @@
+-- Queue FIFO (First in First Out)
+
+it is an interface
+
+-- implemented in ArrayQueue
+-- Priority Queue
+-- Linked List
+
+difference Between add() and offer()
+in the add method add() if memory full or any reason if you can't able to add an element in queue it will throw an exception
+but in the offer() in the offer method it will return boolean value
+
+same as  remove() and poll()
+in the remove method remove() it will throw an exception when try to remove the element from the empty queue
+where else poll() method it will return null
+
+same as element() and peek()
+element() it will throw an exception
+and peek() it will return the null if a queue is empty
+
