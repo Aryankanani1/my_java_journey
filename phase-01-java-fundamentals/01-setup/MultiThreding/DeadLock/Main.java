@@ -15,15 +15,15 @@ public class Main {
         Thread t1 = new Thread(runnable1);
         Thread t2 = new Thread(runnable2);
 
-//       t1.start();
-//       t2.start();
+       t1.start();
+       t2.start();
         DeadLockSynchro1 deadLockSynchro1 = new DeadLockSynchro1(lock1,lock2);
         DeadLockSynchro2 deadLockSynchro2 = new DeadLockSynchro2(lock1,lock2);
 
         Thread synt1 = new Thread(deadLockSynchro1);
         Thread synt2 = new Thread(deadLockSynchro2);
-        synt1.start();
-        synt2.start();
+//        synt1.start();
+//        synt2.start();
 
     }
 }

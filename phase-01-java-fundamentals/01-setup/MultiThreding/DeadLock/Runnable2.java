@@ -13,20 +13,26 @@ class Runnable2 implements Runnable{
     }
     @Override
     public void run() {
+//        String threadName = Thread.currentThread().getName();
+//        System.out.println(threadName +  "attempting to lock lock2");
+//        lock2.lock();
+//        System.out.println(threadName + "Locked lock2");
+
+        // reordering the lock
         String threadName = Thread.currentThread().getName();
-        System.out.println(threadName +  "attempting to lock lock2");
-        lock2.lock();
-        System.out.println(threadName + "Locked lock2");
+        System.out.println(threadName +  "attempting to lock lock1");
+        lock1.lock();
+        System.out.println(threadName + "Locked lock1");
 
         try{
             Thread.sleep(3000);
         }catch (InterruptedException e) {
-///
+       // will do work
 
         }
-            System.out.println(threadName + "attempting to lock lock1");
-            lock1.lock();
-            System.out.println(threadName + "locked lock 1");
+            System.out.println(threadName + "attempting to lock lock2");
+            lock2.lock();
+            System.out.println(threadName + "locked lock 2");
 
 
             // do work
