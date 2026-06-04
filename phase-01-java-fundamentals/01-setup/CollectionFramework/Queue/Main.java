@@ -50,8 +50,8 @@ public class Main {
         }
         System.out.println(bq);
 
-
-
+  int capacity =  bq.remainingCapacity();
+        System.out.println("Remaining capacity is: "+ capacity);
 
     }
 
