@@ -14,13 +14,6 @@ will live in their own dedicated repositories once they're ready.
 | Phase | Topic | Status |
 |-------|-------|--------|
 | 1 | Java fundamentals | 🟡 In progress |
-| 2 | Problem solving & core CS | ⚪ Not started |
-| 3 | Databases & SQL | ⚪ Not started |
-| 4 | Web & HTTP fundamentals | ⚪ Not started |
-| 5 | Build tools & project structure | ⚪ Not started |
-| 6 | Spring Framework & Spring Boot | ⚪ Not started |
-| 7 | Enterprise & production concerns | ⚪ Not started |
-| 8 | Portfolio projects | ⚪ Not started |
 
 Legend: ⚪ not started · 🟡 in progress · 🟢 complete
 
