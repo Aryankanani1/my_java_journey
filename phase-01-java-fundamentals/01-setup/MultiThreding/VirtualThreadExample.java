@@ -11,9 +11,9 @@ public class VirtualThreadExample {
             }
         };
 
-        Thread startedThread = Thread.ofVirtual().start(runnable);
-        Thread unStartedThread = Thread.ofVirtual().unstarted(runnable);
-        unStartedThread.start();
+//        Thread startedThread = Thread.ofVirtual().start(runnable);
+//        Thread unStartedThread = Thread.ofVirtual().unstarted(runnable);
+//        unStartedThread.start();
 
 
     }
