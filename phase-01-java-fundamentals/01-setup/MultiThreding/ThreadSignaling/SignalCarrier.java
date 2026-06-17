@@ -1,0 +1,30 @@
+package MultiThreding.ThreadSignaling;
+
+public class SignalCarrier {
+
+    public void doWait() throws InterruptedException{
+        synchronized (this){
+            System.out.println(Thread.currentThread().getName() + " calling wait() ");
+            this.wait();
+            System.out.println(Thread.currentThread().getName() + " exiting wait() ");
+        }
+    }
+
+    public void doNotify(){
+        synchronized (this){
+            System.out.println(Thread.currentThread().getName() + " calling notify() ");
+            this.notify();
+            System.out.println(Thread.currentThread().getName() + " waiting notify() ");
+        }
+    }
+
+    public void doNotifyAll(){
+        synchronized (this){
+            System.out.println(Thread.currentThread().getName() + " calling notifyAll() ");
+            this.notifyAll();
+            System.out.println(Thread.currentThread().getName() + " waiting notifyAll() ");
+        }
+    }
+
+
+}
